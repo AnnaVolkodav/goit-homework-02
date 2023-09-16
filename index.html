@@ -13,57 +13,75 @@
   <body>
     <header>
       <!-- menu nav -->
-      <nav>
+      <nav class="header-navigation">
         <!-- logo-link -->
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a class="logo-link link" href="./index.html"><span>Web</span>Studio</a>
+        <ul class="header-navigation-list">
+          <li class="navigation-item">
+            <a class="nav-link nav-studio-link link" href="">Studio</a>
+          </li>
+          <li class="navigation-item">
+            <a class="nav-link nav-portfolio-link link" href="">Portfolio</a>
+          </li>
+          <li class="navigation-item">
+            <a class="nav-link nav-contacts-link link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
       <!-- contacts -->
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="header-address">
+        <ul class="header-address-list">
+          <li class="address-item">
+            <a
+              class="address-link address-mail-link link"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="address-item">
+            <a
+              class="address-link address-tel-link link"
+              href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <main>
       <!-- main section -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero-section">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-btn" type="button">Order Service</button>
       </section>
       <!-- section 2 -->
       <section>
-        <h2>Header for section 2</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+        <h2 class="visually-hidden">Header for section 2</h2>
+        <ul class="our-purpose-list">
+          <li class="purpose-item strategy-item">
+            <h3 class="purpose-title">Strategy</h3>
+            <p class="purpose-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="purpose-item punctuality-item">
+            <h3 class="purpose-title">Punctuality</h3>
+            <p class="purpose-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="purpose-item diligence-item">
+            <h3 class="purpose-title">Diligence</h3>
+            <p class="purpose-text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="purpose-item technologies-item">
+            <h3 class="purpose-title">Technologies</h3>
+            <p class="purpose-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -72,75 +90,113 @@
       </section>
       <!-- section 3 -->
       <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
+        <h2 class="oteam-main-title">Our Team</h2>
+        <ul class="oteam-list">
+          <li class="oteam-item product-item">
             <img
-              src="./images/img-product-designer.jpg"
+              class="oteam-loved"
+              src="./images/our-team/img-product-designer.jpg"
               width="264"
               alt="Product Designer"
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="our-team-title">Mark Guerrero</h3>
+            <p class="our-team-text">Product Designer</p>
           </li>
-          <li>
+          <li class="oteam-item frontend-item">
             <img
-              src="./images/img-frontend-developer.jpg"
+              class="oteam-loved"
+              src="./images/our-team/img-frontend-developer.jpg"
               width="264"
               alt="Frontend Developer"
             />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <h3 class="our-team-title">Tom Ford</h3>
+            <p class="our-team-text">Frontend Developer</p>
           </li>
-          <li>
-            <img src="./images/img-marketing.jpg" width="264" alt="Marketing" />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
+          <li class="oteam-item marketing-item">
             <img
-              src="./images/img-ui-designer.jpg"
+              class="oteam-loved"
+              src="./images/our-team/img-marketing.jpg"
+              width="264"
+              alt="Marketing"
+            />
+            <h3 class="our-team-title">Camila Garcia</h3>
+            <p class="our-team-text">Marketing</p>
+          </li>
+          <li class="oteam-item designer-item">
+            <img
+              class="oteam-loved"
+              src="./images/our-team/img-ui-designer.jpg"
               width="264"
               alt="UI Designer"
             />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <h3 class="our-team-title">Daniel Wilson</h3>
+            <p class="our-team-text">UI Designer</p>
           </li>
         </ul>
       </section>
       <!-- section 4 -->
       <section>
-        <h2>Our portfolio</h2>
-        <ul>
-          <li>
-            <img src="" alt="app for banking" />
-            <h3>Banking App</h3>
-            <p>App</p>
+        <h2 class="oportfolio-main-title">Our portfolio</h2>
+        <ul class="oportfolio-list">
+          <li class="oportfolio-item">
+            <img
+              class="oportfolio-loved"
+              src="./images/our-portfolio/banking-app.jpg"
+              alt="app for banking"
+              width="360"
+            />
+            <h3 class="oportfolio-title">Banking App</h3>
+            <p class="oportfolio-main-text">App</p>
           </li>
-          <li>
-            <img src="" alt="phone payment" />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+          <li class="oportfolio-item">
+            <img
+              class="oportfolio-loved"
+              src="./images/our-portfolio/cashless-payment.jpg"
+              alt="phone payment"
+              weidth
+            />
+            <h3 class="oportfolio-title">Cashless Payment</h3>
+            <p class="oportfolio-main-text">Marketing</p>
           </li>
-          <li>
-            <img src="" alt="laptop with telephone" />
-            <h3>Meditation App</h3>
-            <p>App</p>
+          <li class="oportfolio-item">
+            <img
+              class="oportfolio-loved"
+              src="./images/our-portfolio/meditation-app.jpg"
+              alt="laptop with telephone"
+              weidth
+            />
+            <h3 class="oportfolio-title">Meditation App</h3>
+            <p class="oportfolio-main-text">App</p>
           </li>
-          <li>
-            <img src="" alt="driver in the car" />
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
+          <li class="oportfolio-item">
+            <img
+              class="oportfolio-loved"
+              src="./images/our-portfolio/taxi-service.jpg"
+              alt="driver in the car"
+              weidth
+            />
+            <h3 class="oportfolio-title">Taxi Service</h3>
+            <p class="oportfolio-main-text">Marketing</p>
           </li>
-          <li>
-            <img src="" alt="phone images" />
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
+          <li class="oportfolio-item">
+            <img
+              class="oportfolio-loved"
+              src="./images/our-portfolio/screen-illustrations.jpg"
+              alt="phone images"
+              weidth
+            />
+            <h3 class="oportfolio-title">Screen Illustrations</h3>
+            <p class="oportfolio-main-text">Design</p>
           </li>
-          <li>
-            <img src="" alt="girl during call" />
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
+          <li class="oportfolio-item">
+            <img
+              class="oportfolio-loved"
+              src="./images/our-portfolio/online-courses.jpg"
+              alt="girl during call"
+              weidth
+            />
+            <h3 class="oportfolio-title">Online Courses</h3>
+            <p class="oportfolio-main-text">Marketing</p>
           </li>
         </ul>
       </section>

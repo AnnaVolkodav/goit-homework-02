@@ -1,0 +1,199 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+
+<=====================HEADER=================== > .header-navigation {
+}
+.logo-link {
+  color: currentColor;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-link span {
+  color: #4d5ae5;
+}
+
+.link {
+  text-decoration: none;
+}
+.header-navigation-list {
+}
+.navigation-item {
+}
+
+.nav-link {
+  color: #2e2f42;
+  font-family: inherit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.nav-studio-link {
+}
+.nav-portfolio-link {
+}
+.nav-contacts-link {
+}
+.header-address {
+}
+.header-address-list {
+}
+.address-item {
+}
+
+.address-link {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.address-mail-link {
+}
+.address-tel-link {
+}
+<===============================================>
+
+<=======================MAIN====================>
+/*MAIN-SECTION*/
+.hero-section {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.hero-title {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+.hero-btn {
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+/*SECTION 2 - hidden title*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.our-purpose-list {
+}
+.purpose-item {
+  font-family: inherit;
+  color: #434455;
+}
+.strategy-item {
+}
+.purpose-title {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.purpose-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.punctuality-item {
+}
+.diligence-item {
+}
+.technologies-item {
+}
+
+/*SECTION 3 - OUR TEAM*/
+.oteam-main-title,
+.oportfolio-main-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.oteam-list {
+}
+.oteam-item {
+}
+.product-item {
+}
+.frontend-item {
+}
+.marketing-item {
+}
+.designer-item {
+}
+.oteam-loved {
+}
+.our-team-title,
+.oportfolio-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.our-team-text,
+.oportfolio-main-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* SECTION 4 - повторювані властивості об'єднані*/
+/* .oportfolio-main-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+} */
+.oportfolio-list {
+}
+.oportfolio-item {
+}
+.oportfolio-loved {
+}
+/* .oportfolio-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+} */
+/* .oportfolio-main-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+} */
+
+<============================================>
+
+<===================FOOTER====================>
+
