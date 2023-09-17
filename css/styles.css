@@ -4,12 +4,18 @@ body {
   color: #434455;
 }
 
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
 /* =================HEADER==================== */
 /* HEADER SECTION */
 .header-navigation {
 }
 
-.logo-link {
+.nav-logo-link {
+  color:#4d5ae5
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -18,13 +24,8 @@ body {
   text-transform: uppercase;
 }
 
-.logo-link .logo-first-part {
-  color: #4d5ae5;
-}
-
-.link {
-  text-decoration: none;
-  font-style: normal;
+.nav-studio-link {
+  color:#2e2f42;
 }
 
 .nav-link {
@@ -41,6 +42,9 @@ body {
 .address-mail-link:hover,
 .address-mail-link:focus {
   color: #404bbf;
+}
+.header-address {
+  font-style: normal;
 }
 
 .address-link {
@@ -162,6 +166,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .oportfolio-title {
