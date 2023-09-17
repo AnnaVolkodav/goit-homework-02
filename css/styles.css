@@ -106,7 +106,7 @@ body {
 }
 
 /*SECTION 2 - hidden title*/
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -118,7 +118,7 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .our-purpose-list {
 }
@@ -172,6 +172,7 @@ body {
 }
 .our-team-title,
 .oportfolio-title {
+  color:#2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -222,7 +223,7 @@ body {
 
 .foot-logo-link {
   color: #f4f4fd;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
