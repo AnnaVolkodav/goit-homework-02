@@ -11,7 +11,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -34,7 +34,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover, 
@@ -62,7 +62,7 @@ body {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .address-mail-link {
 }
@@ -83,7 +83,7 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
+  letter-spacing: 0.02em;
 }
 .hero-btn {
   background-color: #4d5ae5;
@@ -92,7 +92,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
 }
 
 .hero-btn:hover,
@@ -128,14 +128,14 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .purpose-text {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 .punctuality-item {
 }
@@ -150,7 +150,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.1;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .oteam-list {
@@ -172,14 +172,14 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 .our-team-text,
 .oportfolio-main-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* SECTION 4 - повторювані властивості об'єднані*/
@@ -220,7 +220,7 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -231,7 +231,7 @@ body {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 <========================================>
