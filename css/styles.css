@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color:#ffffff;
+  background-color: #ffffff;
   color: #434455;
 }
 
@@ -72,9 +72,9 @@ body {
 <=======================MAIN====================>
 /*MAIN-SECTION*/
 
-.hero {
+/* .hero {
   background-color: #2e2f42;
-}
+} */
 
 .hero-title {
   color: #ffffff;
@@ -99,6 +99,10 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404BBF;
+}
+
+.hero {
+  background-color: #2e2f42;
 }
 
 /*SECTION 2 - hidden title*/
@@ -212,9 +216,9 @@ body {
 
 <===================FOOTER=============>
 
-   .foot-section {
+/* .foot-section {
     background-color: #2e2f42;
-}
+} */
 
 .foot-logo-link {
   color: #f4f4fd;
@@ -226,11 +230,23 @@ body {
   text-transform: uppercase;
 }
 
+.foot-logo-link .logo-first-part {
+  color: #4d5ae5;
+}
+
+.foot-logo-link .logo-second-part {
+  color: #f4f4fd;
+}
+
 .foot-text {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.foot-section {
+    background-color: #2e2f42;
 }
 
 <========================================>
