@@ -1,26 +1,27 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  background-color:#ffffff;
+  color: #434455;
 }
 
 <=====================HEADER=================== > .header-navigation {
 }
 .logo-link {
-  color: currentColor;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.logo-link span {
+.logo-link .logo-first-part {
   color: #4d5ae5;
 }
 
 .link {
   text-decoration: none;
+  font-style: normal;
 }
 .header-navigation-list {
 }
@@ -31,7 +32,6 @@ body {
   color: #2e2f42;
   font-family: inherit;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -57,10 +57,9 @@ body {
 }
 
 .address-link {
-  color: #434455;
+  color: currentColor;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -72,11 +71,11 @@ body {
 
 <=======================MAIN====================>
 /*MAIN-SECTION*/
-.hero-section {
+
+.hero {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
+
 .hero-title {
   color: #ffffff;
   font-family: inherit;
@@ -84,6 +83,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .hero-btn {
   background-color: #4d5ae5;
@@ -93,6 +93,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -119,20 +120,19 @@ body {
 }
 .purpose-item {
   font-family: inherit;
-  color: #434455;
+  color:currentColor;
 }
 .strategy-item {
 }
 .purpose-title {
+  color: #2e2f42;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .purpose-text {
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -145,26 +145,25 @@ body {
 }
 
 /*SECTION 3 - OUR TEAM*/
+.oteam {
+  background-color: #f4f4fd;
+}
+
 .oteam-main-title,
 .oportfolio-main-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .oteam-list {
 }
 .oteam-item {
+  background-color: #ffffff;
 }
-.product-item {
-}
-.frontend-item {
-}
-.marketing-item {
-}
-.designer-item {
-}
+
 .oteam-loved {
 }
 .our-team-title,
@@ -176,7 +175,7 @@ body {
 }
 .our-team-text,
 .oportfolio-main-text {
-  color: #434455;
+  color: currentColor;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -209,9 +208,12 @@ body {
   letter-spacing: 0.32px;
 } */
 
-<============================================
-  > <===================FOOTER=================
-  > .foot-section {
+<==========================================>
+
+<===================FOOTER=============>
+
+   .foot-section {
+    background-color: #2e2f42;
 }
 
 .foot-logo-link {
@@ -224,9 +226,6 @@ body {
   text-transform: uppercase;
 }
 
-.foot-logo-link span {
-  color: #4d5ae5;
-}
 .foot-text {
   color: #f4f4fd;
   font-size: 16px;
