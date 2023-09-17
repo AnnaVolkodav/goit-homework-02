@@ -7,7 +7,7 @@ body {
 }
 .logo-link {
   color: currentColor;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.16;
@@ -36,6 +36,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+
+.nav-link:hover, 
+.nav-link:focus, 
+.address-mail-link:hover, 
+.address-mail-link:focus {
+  color: #404BBF;
+}
 .nav-studio-link {
 }
 .nav-portfolio-link {
@@ -51,7 +58,7 @@ body {
 
 .address-link {
   color: #434455;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   line-height: 1.5;
@@ -74,7 +81,6 @@ body {
   color: #ffffff;
   font-family: inherit;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
@@ -82,6 +88,16 @@ body {
 .hero-btn {
   background-color: #4d5ae5;
   color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404BBF;
 }
 
 /*SECTION 2 - hidden title*/
@@ -193,7 +209,29 @@ body {
   letter-spacing: 0.32px;
 } */
 
-<============================================>
+<============================================
+  > <===================FOOTER=================
+  > .foot-section {
+}
 
-<===================FOOTER====================>
+.foot-logo-link {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
 
+.foot-logo-link span {
+  color: #4d5ae5;
+}
+.foot-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+<========================================>
