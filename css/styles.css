@@ -4,15 +4,8 @@ body {
   color: #434455;
 }
 
-.link {
-  text-decoration: none;
-  font-style: normal;
-}
-
 /* =================HEADER==================== */
 /* HEADER SECTION */
-.header-navigation {
-}
 
 .nav-logo-link {
   color: #4d5ae5;
@@ -43,6 +36,12 @@ body {
 .address-mail-link:focus {
   color: #404bbf;
 }
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
 .header-address {
   font-style: normal;
 }
