@@ -4,8 +4,11 @@ body {
   color: #434455;
 }
 
-<=====================HEADER=================== > .header-navigation {
+/* =================HEADER==================== */
+/* HEADER SECTION */
+.header-navigation {
 }
+
 .logo-link {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -23,10 +26,6 @@ body {
   text-decoration: none;
   font-style: normal;
 }
-.header-navigation-list {
-}
-.navigation-item {
-}
 
 .nav-link {
   color: #2e2f42;
@@ -37,23 +36,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-link:hover, 
-.nav-link:focus, 
-.address-mail-link:hover, 
+.nav-link:hover,
+.nav-link:focus,
+.address-mail-link:hover,
 .address-mail-link:focus {
-  color: #404BBF;
-}
-.nav-studio-link {
-}
-.nav-portfolio-link {
-}
-.nav-contacts-link {
-}
-.header-address {
-}
-.header-address-list {
-}
-.address-item {
+  color: #404bbf;
 }
 
 .address-link {
@@ -63,18 +50,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-mail-link {
-}
-.address-tel-link {
-}
-<===============================================>
 
-<=======================MAIN====================>
+/* ================MAIN================= */
 /*MAIN-SECTION*/
 
-/* .hero {
+.hero {
   background-color: #2e2f42;
-} */
+}
 
 .hero-title {
   color: #ffffff;
@@ -88,7 +70,7 @@ body {
 .hero-btn {
   background-color: #4d5ae5;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -98,33 +80,21 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
-.hero {
+/* .hero {
   background-color: #2e2f42;
-}
+} */
 
 /*SECTION 2 - hidden title*/
-/* .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-} */
+/* visually hidden не пропускає автоперевірка  */
 
 .our-purpose-list {
 }
 .purpose-item {
   font-family: inherit;
-  color:currentColor;
+  color: currentColor;
 }
 .strategy-item {
 }
@@ -149,12 +119,13 @@ body {
 }
 
 /*SECTION 3 - OUR TEAM*/
+
 .oteam {
   background-color: #f4f4fd;
 }
 
-.oteam-main-title,
-.oportfolio-main-title {
+.oteam-main-title {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -162,68 +133,61 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
-.oteam-list {
-}
+
 .oteam-item {
   background-color: #ffffff;
 }
 
-.oteam-loved {
-}
-.our-team-title,
-.oportfolio-title {
-  color:#2e2f42;
+.our-team-title {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.our-team-text,
-.oportfolio-main-text {
+
+.our-team-text {
   color: currentColor;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-/* SECTION 4 - повторювані властивості об'єднані*/
-/* .oportfolio-main-title {
+/* SECTION 4 */
+
+.oportfolio-main-title {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-} */
-.oportfolio-list {
 }
-.oportfolio-item {
-}
-.oportfolio-loved {
-}
-/* .oportfolio-title {
+
+.oportfolio-title {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-} */
-/* .oportfolio-main-text {
-  color: #434455;
+}
+
+.oportfolio-main-text {
+  color: currentColor;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-} */
+}
 
-<==========================================>
+/* FOOTER SECTOIN */
 
-<===================FOOTER=============>
-
-/* .foot-section {
-    background-color: #2e2f42;
-} */
+.foot-section {
+  background-color: #2e2f42;
+}
 
 .foot-logo-link {
-  color: #f4f4fd;
-  font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -231,11 +195,7 @@ body {
   text-transform: uppercase;
 }
 
-.foot-logo-link .logo-first-part {
-  color: #4d5ae5;
-}
-
-.foot-logo-link .logo-second-part {
+.logo-lightcolor {
   color: #f4f4fd;
 }
 
@@ -245,9 +205,3 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-.foot-section {
-    background-color: #2e2f42;
-}
-
-<========================================>
