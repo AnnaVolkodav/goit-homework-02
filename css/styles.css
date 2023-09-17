@@ -32,8 +32,8 @@ body {
 
 .nav-link:hover,
 .nav-link:focus,
-.address-mail-link:hover,
-.address-mail-link:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
